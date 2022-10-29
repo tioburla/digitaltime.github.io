@@ -7,22 +7,32 @@
 }
 
 body{
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     background: aquamarine;
     text-align: center;
+  
+    align-items: center;
 }
 .text{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    width: 550px;
     border-radius: 3px;
-   
+    color: #fff;
+    padding-bottom: 5%;
+}
+.info{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .relogio{
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-around;
     height: 200px;
     width: 550px;
