@@ -7,27 +7,28 @@
 }
 
 body{
-    height: 100%;
-    width: 100%;
     background: aquamarine;
     text-align: center;
-  
     align-items: center;
 }
-.text{
-    display: flex;
+.title{
     align-items: center;
     justify-content: center;
-    border-radius: 3px;
-    color: #fff;
-    padding-bottom: 5%;
+    background: rgba(5, 5, 5, 0.5);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
 }
+.text{
+    color: #fff;
+    font-size: 60px;
+}
+
+
 .info{
-    width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding-top: 10%;
 }
 .relogio{
     display: flex;
@@ -40,7 +41,6 @@ body{
     border-radius: 3px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
 }
-
 .relogio div{
     height: 170px;
     width: 150px;
@@ -54,11 +54,9 @@ body{
     border-radius: 7px;
     letter-spacing: 3px;
 }
-
 .relogio span{
     font-size: 80px;
 }
-
 .relogio span.time{
     font-size: 20px;
 }
